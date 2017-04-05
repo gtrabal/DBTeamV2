@@ -42,7 +42,6 @@ local function run(msg, matches)
 		-- stats.lua
 		set_text(LANG, 'stats', '*Estadistiques del grup*')
 
-
 		-- settings.lua --
 		set_text(LANG, 'user', 'Usuari')
 		set_text(LANG, 'isFlooding', '*està fent flood.*')
@@ -194,8 +193,8 @@ local function run(msg, matches)
 		set_text(LANG, 'user', 'Usuari')
 		set_text(LANG, 'chatName', 'Nom del grup')
 		set_text(LANG, 'chat', 'Xat')
-		set_text(LANG, 'userID', '*User ID:*')
-		set_text(LANG, 'chatID', '*Chat ID:*')
+		set_text(LANG, 'userID', '*ID de l\'usuari*')
+		set_text(LANG, 'chatID', '*ID del grup:*')
 
 		-- moderation.lua --
 		set_text(LANG, 'kickUser', '`>` L\'usuari ha estat *expulsat.*')
